@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic-Site</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="section-1">
+            <nav>
+                <img src="https://www.shrutipatel.com/images/logo-white.png" class="logo" />
+                <ul>
+                    <li>
+                        <a href=""> HOME </a>
+                    </li>
+                    <li>
+                        <a href=""> ABOUT </a>
+                    </li>
+                    <li>
+                        <a href=""> PORTFOLIO </a>
+                    </li>
+                    <li>
+                        <a href=""> SERVICES </a>
+                    </li>
+                </ul>
+                <img src="images/menu.png" class="menu-icon" />
+            </nav>
+
+            <div class="text-box">
+                <h1>I'm <span class="auto-input"></span></h1>
+                <p>
+                    You can reach out to me if you need any help in making a website for
+                    you or in your business.
+                </p>
+                <a href="" onclick="">Contact Me</a>
+                <a href="https://drive.google.com/file/d/1fQcCbI16ETBjHauytIsN-8fLQEwMpz98/view?usp=drivesdk"
+                    class="btn">Download CV</a>
+            </div>
+
+            <img src="images/shruti.jpeg" class="user-img">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+
+        let typed = new Typed(".auto-input", {
+            strings: ["Shruti Sneha", "a Web Developer", "UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
